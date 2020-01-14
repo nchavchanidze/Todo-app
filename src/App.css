@@ -56,6 +56,20 @@ body {
 }
 .faicons {
   margin: 0 5px;
-  font-size: 15px;
-  
+  font-size: 15px; 
+}
+.list_items {
+  height: 410px;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+::-webkit-scrollbar {
+  background: transparent;
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 6px solid  rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  background-color: #bf07ac;
 }
